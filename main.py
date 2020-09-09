@@ -1,12 +1,7 @@
-a = [66.25, 333, 333, 1, 1234.5]
-print(a.count(333), a.count(66.25), a.count('x'))
-a.insert(2, -1)
-a.append(333)
-a
-a.index(333)
-a.remove(333)
-a
-a.reverse()
-a
-a.sort()
-a
+x=[1, 2, 3, 5, 7]
+print(x)
+y=28
+x.insert(2,y)
+print(x)
+x.remove(7)
+print(x)
