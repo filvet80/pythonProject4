@@ -1,0 +1,4 @@
+text = "hello cruel world. This is a sample text"
+d = dict.fromkeys(text, 0)
+for c in text: d[c] += 1
+print(d ['l'])
